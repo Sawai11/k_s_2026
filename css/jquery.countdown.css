@@ -1,0 +1,135 @@
+
+
+/* LIQUID GLASS COUNTDOWN */
+
+/* =========================================
+   ROYAL LIQUID GLASS COUNTDOWN
+   Actual selector: #countdownTimer
+   ========================================= */
+
+ul#countdownTimer {
+    list-style: none;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: stretch;
+    justify-content: center;
+
+    width: calc(100% - 24px);
+    max-width: 520px;
+    margin: 30px auto 10px;
+    padding: 0;
+    gap: clamp(3px, 1.2vw, 10px);
+
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+/* Four glass cards */
+ul#countdownTimer li:not(.separator) {
+    flex: 1 1 0;
+    min-width: 0;
+    width: auto;
+    padding: clamp(12px, 3vw, 20px) 1px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    box-sizing: border-box;
+    text-align: center;
+
+    background: linear-gradient(
+        145deg,
+        rgba(255, 255, 255, 0.24),
+        rgba(255, 255, 255, 0.07)
+    );
+
+    border: 1px solid rgba(255, 255, 255, 0.42);
+    border-radius: clamp(12px, 3vw, 22px);
+
+    -webkit-backdrop-filter: blur(18px) saturate(160%);
+    backdrop-filter: blur(18px) saturate(160%);
+
+    box-shadow:
+        inset 0 1px 1px rgba(255, 255, 255, 0.38),
+        inset 0 -1px 1px rgba(255, 255, 255, 0.08),
+        0 8px 22px rgba(30, 45, 55, 0.12);
+}
+
+/* Timer numbers */
+ul#countdownTimer li span {
+    display: block;
+    max-width: 100%;
+    color: #fff;
+
+    font-size: clamp(20px, 5.5vw, 34px);
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0;
+    font-variant-numeric: tabular-nums;
+    white-space: nowrap;
+}
+
+/* DAYS, HOURS, MINUTES, SECONDS */
+ul#countdownTimer li p {
+    margin: 9px 0 0;
+    color: rgba(255, 255, 255, 0.95);
+
+    font-size: clamp(7px, 1.9vw, 11px);
+    letter-spacing: clamp(0px, 0.25vw, 1px);
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+/* Transparent colon separators */
+ul#countdownTimer li.separator {
+    flex: 0 0 clamp(5px, 1.5vw, 10px);
+    min-width: 0;
+    width: auto;
+    padding: 0;
+    margin: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: transparent;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+
+    -webkit-backdrop-filter: none;
+    backdrop-filter: none;
+
+    color: rgba(255, 255, 255, 0.9);
+    font-size: clamp(13px, 3vw, 20px);
+    line-height: 1;
+}
+
+/* Small mobile screens */
+@media (max-width: 380px) {
+    ul#countdownTimer {
+        width: calc(100% - 16px);
+        gap: 3px;
+    }
+
+    ul#countdownTimer li:not(.separator) {
+        padding: 12px 0;
+        border-radius: 12px;
+    }
+
+    ul#countdownTimer li span {
+        font-size: clamp(18px, 6vw, 23px);
+    }
+
+    ul#countdownTimer li p {
+        font-size: 7px;
+        letter-spacing: 0;
+    }
+
+    ul#countdownTimer li.separator {
+        flex-basis: 4px;
+        font-size: 13px;
+    }
+}

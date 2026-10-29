@@ -1,0 +1,3727 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Manrope:wght@400;500;600&family=Noto+Serif+Devanagari:wght@400;500;600&display=swap');
+
+.has-vertically-aligned-content {
+
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: center;
+
+}
+
+
+
+* {
+
+  box-sizing: border-box;
+
+}
+
+
+
+html {
+
+  font-family: 'Raleway', Tahoma, sans-serif;
+
+  width: 100%;
+
+  min-height: 100%;
+
+}
+
+
+
+.header-wrapper {
+
+  padding-bottom: 30px;
+
+}
+
+
+
+.navbar-item {
+  line-height: 38px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 1rem;
+}
+
+.navbar-item.is-active {
+  border-bottom: 2px solid #7D8FA1;
+}
+
+
+
+
+
+.hero {
+
+  background: linear-gradient(rgba(94, 87, 74, 0.52), rgba(94, 87, 74, 0.52)), url('../image/11.png') center center / cover no-repeat;
+
+  background-attachment: fixed;
+
+  color: white;
+
+  box-shadow: inset 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+
+  font-family: 'Raleway', sans-serif;
+
+}
+
+
+
+
+
+
+
+.hero .title {
+
+  font-family: 'Rouge Script', sans-serif;
+
+  font-weight: 700;
+
+  transform: rotate(-2deg);
+
+  font-size: 5rem;
+
+  padding-bottom: 5px;
+
+  color: whitesmoke;
+
+}
+
+
+
+.hero .subtitle {
+
+  padding: 35px;
+
+  color: whitesmoke;
+
+  font-size: 1.3rem;
+
+}
+
+
+
+.header-wrapper .hero {
+
+  background-attachment: scroll;
+
+  background-position: center;
+
+  background-size: cover;
+
+}
+
+
+
+.header-wrapper .hero .hero-body {
+
+  padding: clamp(40px, 8vh, 90px) 16px 40px;
+
+}
+/* Remove glass box from wedding invitation */
+.header-wrapper .hero .hero-body > .container {
+
+    width: min(100%, 760px);
+
+    margin: 0 auto;
+
+    padding: 20px 12px;
+
+
+
+    background: transparent;
+
+    border: none;
+
+    border-radius: 0;
+
+
+
+    -webkit-backdrop-filter: none;
+
+    backdrop-filter: none;
+
+
+
+    box-shadow: none;
+
+}
+
+
+
+.header-wrapper .hero .ceremonial-heading {
+
+    font-family: Georgia, "Noto Serif Devanagari", serif;
+
+    font-size: clamp(18px, 3vw, 26px);
+
+    font-weight: 500;
+
+
+
+    color: #F4D9A0;
+
+    text-align: center;
+
+
+
+    letter-spacing: 0.5px;
+
+    margin-bottom: 24px;
+
+
+
+    text-shadow: 0 2px 12px rgba(0,0,0,0.15);
+
+}
+
+
+
+.header-wrapper .hero .hero-kicker {
+
+  font-family: 'Manrope', sans-serif;
+
+  font-size: clamp(11px, 2vw, 14px);
+
+  font-weight: 500;
+
+  letter-spacing: 3px;
+
+  text-transform: uppercase;
+
+  color: #F7E8C7;
+
+  margin: 0 0 22px;
+
+  padding: 0;
+
+}
+
+
+
+.header-wrapper .hero .hero-couple {
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+
+  margin: 0 auto 26px;
+
+  padding: 0;
+
+  max-width: 100%;
+
+  font-family: 'Cormorant Garamond', serif;
+
+  font-size: clamp(54px, 9vw, 94px);
+
+  font-weight: 500;
+
+  line-height: 0.98;
+
+  letter-spacing: -1px;
+
+  text-align: center;
+
+  color: #FFFFFF;
+
+  text-shadow: 0 2px 18px rgba(20, 30, 35, 0.12);
+
+  transform: none;
+
+  gap: 0;
+
+}
+
+
+
+.header-wrapper .hero .couple-amp {
+
+  margin: 7px 0;
+
+  font-family: 'Cormorant Garamond', serif;
+
+  font-size: 0.65em;
+
+  font-weight: 400;
+
+  font-style: italic;
+
+  color: #F1D9A5;
+
+  line-height: 1;
+
+  display: inline-block;
+
+}
+
+
+
+.header-wrapper .hero .hero-details {
+
+  font-family: 'Manrope', sans-serif;
+
+  font-size: clamp(13px, 2.2vw, 19px);
+
+  font-weight: 400;
+
+  line-height: 1.9;
+
+  letter-spacing: 0.2px;
+
+  color: rgba(255, 255, 255, 0.96);
+
+  margin: 0 auto;
+
+  padding-top: 0;
+
+}
+
+
+
+html,
+
+body {
+
+  width: 100%;
+
+  max-width: 100%;
+
+  overflow-x: clip;
+
+}
+
+
+
+.header-wrapper,
+
+.header-wrapper .hero,
+
+.header-wrapper .hero-body {
+
+  width: 100%;
+
+  min-width: 0;
+
+  box-sizing: border-box;
+
+}
+
+
+
+.header-wrapper .hero .hero-body > .container {
+
+  width: 100%;
+
+  min-width: 0;
+
+  box-sizing: border-box;
+
+}
+
+
+
+.header-wrapper .hero .hero-couple {
+
+  max-width: 100%;
+
+  overflow-wrap: anywhere;
+
+}
+
+
+
+.header-wrapper .hero .hero-details {
+
+  max-width: 100%;
+
+  overflow-wrap: break-word;
+
+}
+
+
+
+@media (max-width: 480px) {
+
+  .header-wrapper .hero .hero-body {
+
+    padding: 35px 12px 28px;
+
+  }
+
+
+
+  .header-wrapper .hero .hero-body > .container {
+
+    padding: 30px 10px;
+
+    border-radius: 24px;
+
+  }
+
+
+
+  .header-wrapper .hero .ceremonial-heading {
+
+    font-size: 19px;
+
+    margin-bottom: 18px;
+
+  }
+
+
+
+  .header-wrapper .hero .hero-kicker {
+
+    font-size: 10px;
+
+    letter-spacing: 2px;
+
+    margin-bottom: 22px;
+
+  }
+
+
+
+  .header-wrapper .hero .hero-couple {
+
+    font-size: clamp(48px, 12vw, 60px);
+
+    line-height: 1.02;
+
+    letter-spacing: -0.5px;
+
+    margin-bottom: 22px;
+
+  }
+
+
+
+  .header-wrapper .hero .couple-amp {
+
+    margin: 5px 0;
+
+  }
+
+
+
+  .header-wrapper .hero .hero-details {
+
+    font-size: 13px;
+
+    line-height: 1.9;
+
+  }
+
+}
+/* ==========================================*
+
+*   SECOND PAGE — ROYAL WEDDING INVITATION*
+
+*   Uses your ACTUAL HTML selectors*
+
+*   ========================================== */
+/* Target only the second page */
+#about-couple.section-light.regular-section {
+
+    min-height: 100svh;
+
+    height: auto;
+
+    padding: 42px 20px 120px !important;
+
+    box-sizing: border-box;
+
+
+
+    background-color: #FCFAF5;
+
+    background-position: bottom center;
+
+    background-repeat: no-repeat;
+
+    background-size: min(360px, 85vw) auto;
+
+}
+/* Center the existing page content */
+#about-couple > .container {
+
+    width: 100%;
+
+    max-width: 800px;
+
+    margin: 0 auto;
+
+}
+/* Refine the existing Ganesh image */
+#about-couple img:not(.divider) {
+
+    max-width: 75px;
+
+    height: auto;
+
+}
+/* Sanskrit shloka */
+#about-couple p {
+
+    line-height: 1.9;
+
+}
+/* Remove oversized spacer elements on this page only */
+#about-couple .space40px {
+
+    display: none !important;
+
+}
+/* Couple's names — actual class in your HTML */
+#about-couple .couple-name {
+
+    font-family: 'Cormorant Garamond', serif !important;
+
+    font-size: clamp(44px, 6vw, 68px) !important;
+
+    font-weight: 500;
+
+    line-height: 1.08 !important;
+
+    letter-spacing: 0 !important;
+
+    padding: 0 !important;
+
+    margin: 0 auto;
+
+    color: #6A7C8C;
+
+    text-align: center;
+
+}
+/* Elegant ampersand */
+#about-couple .ampersand {
+
+    display: block !important;
+
+    font-family: 'Cormorant Garamond', serif !important;
+
+    font-size: clamp(28px, 4vw, 38px) !important;
+
+    font-weight: 400;
+
+    font-style: italic;
+
+    line-height: 1.25 !important;
+
+    color: #AD8950;
+
+    margin: 4px auto;
+
+    text-align: center;
+
+}
+/* Keep your existing botanical divider */
+#about-couple img.divider {
+
+    display: block;
+
+    width: 125px;
+
+    max-width: 40%;
+
+    height: auto;
+
+    margin: 30px auto 0 !important;
+
+}
+/* Mobile layout */
+@media (max-width: 480px) {
+
+    #about-couple.section-light.regular-section {
+
+        padding: 30px 16px 100px !important;
+
+        background-size: 300px auto;
+
+    }
+
+
+
+    #about-couple .couple-name {
+
+        font-size: clamp(40px, 10vw, 50px) !important;
+
+    }
+
+
+
+    #about-couple .ampersand {
+
+        font-size: 30px !important;
+
+    }
+
+
+
+    #about-couple img.divider {
+
+        width: 105px;
+
+        margin-top: 24px !important;
+
+    }
+
+}
+
+
+
+.scratch-card {
+
+  position: relative;
+
+  isolation: isolate;
+
+  width: min(100% - 28px, 560px);
+
+  margin: 30px auto;
+
+  border-radius: 25px;
+
+  overflow: hidden;
+
+  box-sizing: border-box;
+
+  background: rgba(255, 255, 255, 0.10);
+
+  border: 1px solid rgba(255, 255, 255, 0.42);
+
+  box-shadow: inset 0 1px 1px rgba(255,255,255,.35), 0 12px 32px rgba(20,35,45,.15);
+
+  -webkit-backdrop-filter: blur(16px) saturate(150%);
+
+  backdrop-filter: blur(16px) saturate(150%);
+
+}
+
+
+
+.scratch-card ul#countdownTimer {
+
+  position: relative;
+
+  z-index: 1;
+
+  width: 100%;
+
+  max-width: none;
+
+  margin: 0;
+
+  padding: 28px 14px;
+
+  box-sizing: border-box;
+
+}
+
+
+
+.scratch-overlay {
+
+  position: absolute;
+
+  inset: 0;
+
+  z-index: 5;
+
+  overflow: hidden;
+
+  border-radius: inherit;
+
+  touch-action: none;
+
+  cursor: crosshair;
+
+  background: linear-gradient(135deg, rgba(255,255,255,0.46), rgba(203,211,214,0.72) 32%, rgba(151,168,174,0.76) 58%, rgba(243,236,225,0.32) 100%);
+
+  -webkit-backdrop-filter: blur(14px) saturate(120%);
+
+  backdrop-filter: blur(14px) saturate(120%);
+
+  animation: scratchGlow 3.8s ease-in-out infinite alternate;
+
+}
+
+
+
+@keyframes scratchGlow {
+
+  0% {
+
+    box-shadow: inset 0 0 0 rgba(255,255,255,0), inset 0 0 0 rgba(255,255,255,0);
+
+    filter: saturate(1) brightness(1.02);
+
+  }
+
+  50% {
+
+    box-shadow: inset 0 0 18px rgba(255,255,255,0.16), inset 0 0 24px rgba(255,255,255,0.08);
+
+    filter: saturate(1.08) brightness(1.04);
+
+  }
+
+  100% {
+
+    box-shadow: inset 0 0 0 rgba(255,255,255,0), inset 0 0 0 rgba(255,255,255,0);
+
+    filter: saturate(1) brightness(1.02);
+
+  }
+
+}
+
+
+
+.scratch-overlay::before {
+
+  content: "";
+
+  position: absolute;
+
+  inset: -20% -15%;
+
+  background: linear-gradient(
+
+    120deg,
+
+    transparent 0%,
+
+rgba(255,255,255,0.32) 18%,
+
+rgba(255,255,255,0.14) 30%,
+
+rgba(255,255,255,0.05) 40%,
+
+    transparent 52%
+
+  );
+
+  transform: translateX(-80%) rotate(8deg);
+
+  animation: scratchSweep 3.8s ease-in-out infinite;
+
+  pointer-events: none;
+
+}
+
+
+
+@keyframes scratchSweep {
+
+  0% {
+
+    transform: translateX(-120%) rotate(8deg);
+
+    opacity: 0;
+
+  }
+
+  18% {
+
+    opacity: 0.9;
+
+  }
+
+  48% {
+
+    opacity: 0.7;
+
+  }
+
+  100% {
+
+    transform: translateX(120%) rotate(8deg);
+
+    opacity: 0;
+
+  }
+
+}
+
+
+
+.scratch-overlay canvas {
+
+  position: absolute;
+
+  inset: 0;
+
+  display: block;
+
+  width: 100%;
+
+  height: 100%;
+
+  touch-action: none;
+
+}
+
+
+
+.scratch-prompt {
+
+  position: absolute;
+
+  inset: 0;
+
+  z-index: 2;
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+
+  justify-content: center;
+
+  gap: 8px;
+
+  padding: 12px;
+
+  box-sizing: border-box;
+
+  pointer-events: none;
+
+  text-align: center;
+
+  color: #fffaf0;
+
+  font-family: 'Manrope', sans-serif;
+
+  font-size: clamp(10px, 2.6vw, 14px);
+
+  font-weight: 500;
+
+  letter-spacing: clamp(1px, .5vw, 3px);
+
+  text-shadow: 0 1px 8px rgba(35,50,55,.25);
+
+}
+
+
+
+.scratch-prompt small {
+
+  font-size: clamp(8px, 2.2vw, 11px);
+
+  letter-spacing: 1.5px;
+
+  font-weight: 400;
+
+  text-transform: uppercase;
+
+}
+
+
+
+.scratch-sparkle {
+
+  color: #ffe4ac;
+
+  font-size: 27px;
+
+  line-height: 1;
+
+}
+
+
+
+.scratch-overlay.is-scratched {
+
+  opacity: 0;
+
+  visibility: hidden;
+
+  pointer-events: none;
+
+  transition: opacity .65s ease, visibility .65s ease;
+
+}
+
+
+
+@media (max-width: 380px) {
+
+  .scratch-card {
+
+    width: calc(100% - 20px);
+
+    border-radius: 18px;
+
+  }
+
+
+
+  .scratch-card ul#countdownTimer {
+
+    padding: 20px 6px;
+
+  }
+
+
+
+  .scratch-prompt {
+
+    letter-spacing: 1px;
+
+  }
+
+}
+
+
+
+@media (prefers-reduced-motion: reduce) {
+
+  .scratch-overlay.is-scratched {
+
+    transition: none;
+
+  }
+
+}
+
+
+
+@media (max-width: 480px) and (max-height: 750px) {
+
+  .header-wrapper .hero .hero-body {
+
+    padding-top: 22px;
+
+  }
+
+
+
+  .header-wrapper .hero .hero-body > .container {
+
+    padding-top: 22px;
+
+    padding-bottom: 22px;
+
+  }
+
+}
+
+
+
+ul#countdownTimer {
+
+  width: calc(100% - 24px);
+
+  max-width: 520px;
+
+  display: flex;
+
+  flex-flow: row nowrap;
+
+  justify-content: center;
+
+  gap: clamp(3px, 1.2vw, 10px);
+
+  box-sizing: border-box;
+
+}
+
+
+
+ul#countdownTimer li:not(.separator) {
+
+  flex: 1 1 0;
+
+  min-width: 0;
+
+}
+
+
+
+ul#countdownTimer li.separator {
+
+  flex: 0 0 5px;
+
+  min-width: 0;
+
+}
+
+
+
+@media (max-width: 360px) {
+
+  .header-wrapper .hero .hero-couple {
+
+    font-size: 46px;
+
+    letter-spacing: -0.5px;
+
+  }
+
+
+
+  .header-wrapper .hero .hero-details {
+
+    font-size: 12px;
+
+  }
+
+
+
+  ul#countdownTimer {
+
+    width: calc(100% - 16px);
+
+    gap: 3px;
+
+  }
+
+
+
+  ul#countdownTimer li.separator {
+
+    flex-basis: 4px;
+
+  }
+
+}
+
+
+
+.hero .event-meta {
+
+  padding-top: 35px;
+
+  font-size: 1.3rem;
+
+}
+
+
+
+.hero .hero-foot {
+
+  height: 50px;
+
+  background: white;
+
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.082);
+
+}
+
+
+
+@media (max-width: 599px) {
+
+  .hero .hero-foot {
+
+    display: none;
+
+  }
+
+}
+
+
+
+.hero .hero-foot .hero-foot--wrapper {
+
+  margin: 7px auto;
+
+  height: 50px;
+
+}
+
+
+
+.hero .hero-foot .hero-foot--wrapper .hero-menu-desktop {
+  line-height: 38px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 1rem;
+}
+
+
+
+.hero .hero-foot .hero-foot--wrapper .hero-menu-desktop ul li {
+
+  display: inline-block;
+
+  padding-right: 15px;
+
+  padding-left: 15px;
+
+}
+
+
+
+.hero .hero-foot .hero-foot--wrapper .hero-menu-desktop ul li.is-active a {
+
+  border-bottom: 2px solid #7D8FA1;
+
+}
+
+
+
+.hero .hero-foot .hero-foot--wrapper .hero-menu-desktop ul li a {
+
+  color: #7D8FA1;
+
+}
+
+
+
+.hero .hero-foot .hero-foot--wrapper .hero-menu-desktop ul li a:hover {
+
+  color: #7D8FA1;
+
+  transition: all .2s ease-in-out;
+
+  border-bottom: 2px solid #9BAAB4;
+
+}
+
+
+
+
+
+.space40px{
+
+  height: 40px;
+
+}
+
+
+
+.space24px{
+
+  height: 24px;
+
+}
+
+
+
+.main-content {
+
+  padding-top: 2rem;
+
+  color: #000; 
+
+  font-family: 'Raleway', sans-serif;
+
+}
+
+
+
+.wedding-eyebrow {
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  gap: 12px;
+
+
+
+  margin: 0 auto 24px;
+
+  padding: 0 12px;
+
+
+
+  font-family: Georgia, "Times New Roman", serif;
+
+  font-size: clamp(11px, 1.5vw, 15px);
+
+  font-weight: 600;
+
+  letter-spacing: 1.8px;
+
+  line-height: 1.7;
+
+  text-align: center;
+
+  text-transform: uppercase;
+
+
+
+  color: #98733d;
+
+  text-shadow: none;
+
+}
+
+
+
+.wedding-eyebrow::before,
+
+.wedding-eyebrow::after {
+
+  content: "";
+
+  flex: 0 1 32px;
+
+  height: 1px;
+
+  background: #c4a66a;
+
+}
+
+
+
+@media (max-width: 480px) {
+
+  .wedding-eyebrow {
+
+    gap: 7px;
+
+    letter-spacing: 1px;
+
+    font-size: 10px;
+
+    margin-bottom: 18px;
+
+  }
+
+
+
+  .wedding-eyebrow::before,
+
+  .wedding-eyebrow::after {
+
+    flex-basis: 16px;
+
+  }
+
+}
+
+
+
+.main-content .section-dark {
+
+  background-color: #E5E9ED;
+
+  padding: 80px 40px;
+
+}
+
+
+
+.main-content .section-darker {
+
+  background-color: #D7DEE4;
+
+  padding: 80px 40px;
+
+}
+
+
+
+.main-content .section-dark.resume {
+
+  height: 400px;
+
+  padding-top: 60px;
+
+
+
+}
+
+
+
+@media (max-width: 599px) {
+
+  .main-content .section-dark.resume {
+
+    padding-top: 75px;
+
+  }
+
+}
+
+
+
+.main-content .section-dark.resume .title {
+
+  padding: 20px;
+
+}
+
+
+
+.main-content .section-dark.resume button {
+
+  border: 2px solid #7D8FA1;
+
+  background: white;
+
+  color: #7D8FA1;
+
+  height: 50px;
+
+  width: 250px;
+
+  font-size: 1rem;
+
+  text-transform: uppercase;
+
+}
+
+
+
+.main-content .section-dark.resume .fa-download {
+
+  color: #7D8FA1;
+
+}
+
+
+
+.main-content .section-dark.my-work {
+
+  padding: 80px 40px;
+
+}
+
+
+
+.main-content .section-cashbac {
+
+  background-color: rgb(238, 250, 253);
+
+  padding: 80px 40px; 
+
+}
+
+
+
+@media (max-width: 599px) {
+
+  .main-content .section-dark.foto-foto {
+
+    padding: 75px 20px;
+
+  }
+
+}
+
+
+
+.main-content .section-dark.foto-foto .foto-item {
+
+  margin-bottom: 1rem;
+
+  -webkit-transition: all .1s ease-in-out;
+
+  transition: all .1s ease-in-out;
+
+  border-radius: 5px;
+
+  background-size: cover;
+
+  background-repeat: no-repeat;
+
+  box-shadow: 0 5px 20px rgba(14, 25, 80, 0.3);
+
+}
+
+
+
+.main-content .section-dark.my-work .work-item:hover {
+
+  -webkit-transform: scale(1.055) translateY(-2px);
+
+  transform: scale(1.055) translateY(-2px);
+
+  -webkit-box-shadow: 0 2px 25px 0 rgba(30, 30, 30, 0.1);
+
+  box-shadow: 0 2px 25px 0 rgba(30, 30, 30, 0.1);
+
+}
+
+
+
+.section-map {
+
+  padding: 0 0 0 0 ;
+
+}
+
+
+
+.main-content .section-light {
+
+  padding: 80px 40px;
+
+}
+
+
+
+.main-content .section-light.regular-section {
+
+  padding-bottom: 80px;
+
+}
+
+
+
+.main-content .section-light.regular-section .is-larger {
+
+  font-size: 1.2rem;
+
+}
+
+
+
+@media (max-width: 599px) {
+
+  .main-content .section-light.regular-section .about-links {
+
+    text-align: center;
+
+  }
+
+}
+
+
+
+.main-content .section-light.regular-section .right-image img {
+
+  border-radius: 11px;
+
+  margin: 20px;
+
+  box-shadow: 0 5px 20px rgba(14, 25, 80, 0.3);
+
+}
+
+
+
+@media (max-width: 599px) {
+
+  .main-content .section-light.regular-section .right-image img {
+
+    margin: auto;
+
+  }
+
+}
+
+
+
+.main-content .section-light.skills {
+
+  padding: 100px;
+
+}
+
+
+
+@media (max-width: 599px) {
+
+  .main-content .section-light.skills {
+
+    padding: 50px 20px 40px 20px;
+
+    padding-bottom: 20px;
+
+  }
+
+}
+
+
+
+.main-content .section-light.skills h1 {
+
+  padding: 10px;
+
+  font-size: 24px;
+
+}
+
+
+
+.main-content .section-light.contact {
+
+  padding: 80px;
+
+}
+
+
+
+.main-content .section-light.contact button {
+
+  width: 100%;
+
+  color: white;
+
+  height: 50px;
+
+  font-size: 1.1rem;
+
+  text-transform: uppercase;
+
+  font-family: 'Raleway', sans-serif;
+
+}
+
+
+
+@media (max-width: 599px) {
+
+  .main-content .section-light.contact {
+
+    padding: 80px 40px;
+
+  }
+
+}
+
+
+
+.main-content .section-color.pertanyaan {
+
+  padding: 100px;
+
+  background-color: #7D8FA1;
+
+  color: white;
+
+}
+
+
+
+.main-content .section-color.pertanyaan .title,
+
+.main-content .section-color.pertanyaan .subtitle {
+
+  color: white;
+
+}
+
+
+
+.main-content .section-color.pertanyaan i {
+
+  font-size: 3rem;
+
+  padding: 20px;
+
+}
+
+
+
+.main-content .section-title {
+
+  font-family: 'Raleway', sans-serif;
+
+  font-weight: 900;
+
+  color: #6A7C8C;
+
+  text-transform: uppercase;
+
+  font-size: 1.5rem;
+
+  letter-spacing: 0px;
+
+  padding-bottom: 60px;
+
+}
+
+
+
+.couple-name {
+
+  font-family: 'Rouge Script', sans-serif;
+
+  color: #6A7C8C;
+
+  font-size: 3.5rem;
+
+  letter-spacing: 0px;
+
+  padding-bottom: 6px;
+
+  line-height: 3.7rem;
+
+}
+
+
+
+.ampersand {
+
+font-size: 5rem;
+
+font-family: 'Rouge Script', sans-serif;
+
+color: #6A7C8C;
+
+line-height: 5rem;
+
+display: inline-block;
+
+vertical-align: middle;
+
+}
+
+
+
+.bodytext {
+
+  font-size: 18px;
+
+}
+
+
+
+.event-detail {
+
+  font-size: 1.4rem;
+
+  font-family: 'Raleway', sans-serif;
+
+}
+
+
+
+.event-date {
+
+  font-size: 5rem;
+
+  font-family: 'Raleway', sans-serif;
+
+  font-weight: 900;
+
+  line-height: 1;
+
+}
+
+
+
+.venue-detail {
+
+  font-size: 1.4rem;
+
+  font-family: 'Raleway', sans-serif;
+
+  font-size: ;
+
+  margin-bottom: 50px;
+
+}
+
+
+
+
+
+.has-vertically-align {
+
+  vertical-align: middle;
+
+}
+
+
+
+.footer {
+
+  bottom: 0;
+
+  width: 100vw;
+
+  padding: 10px 10px 10px 10px;
+
+  line-height: 25px;
+
+  text-align: center;
+
+  vertical-align: middle;
+
+  background: #9AA8B2;
+
+  color: whitesmoke;    
+
+}
+
+
+
+.footer p {
+
+  color: white;
+
+  font-weight: 500;
+
+  font-size: 10pt;
+
+  display: inline-block;
+
+  vertical-align: middle;
+
+}
+
+
+
+
+
+.main-content .no-padding-top {
+
+  padding-top: 0px;
+
+}
+
+
+
+.footer img{
+
+  margin: 10px 0px 10px 10px;
+
+  display: inline-block;
+
+  max-height: 24px;
+
+  vertical-align: middle;
+
+}
+
+
+
+.footer a .nav-item {
+
+  color: whitesmoke;
+
+}
+
+
+
+.fa-download {
+
+  color: #43485c;
+
+}
+
+
+
+.divider {
+
+  margin: 40px 25px;
+
+  display: inline-block;
+
+  max-height: 60px;
+
+  vertical-align: middle;
+
+}
+
+
+
+.ceremonial-symbol {
+
+  margin: 25px;
+
+  display: inline-block;
+
+  max-height: 50px;
+
+  vertical-align: middle;
+
+}
+
+
+
+#toTop {
+
+  height: 50px;
+
+  width: 50px;
+
+  display: none;
+
+  position: fixed;
+
+  bottom: 20px;
+
+  right: 20px;
+
+  z-index: 99;
+
+  border: none;
+
+  outline: none;
+
+  background-color: #7D8FA1;
+
+  color: white;
+
+  cursor: pointer;
+
+  border-radius: 50%;
+
+  font-size: 2rem;
+
+  box-shadow: 0 5px 20px rgba(14, 25, 80, 0.3);
+
+}
+
+
+
+#toTop a {
+
+  color: white;
+
+}
+
+
+
+#toTop:hover {
+
+  background-color: #9AAAB7;
+
+}
+
+
+
+::-webkit-scrollbar {
+
+  width: 8px;
+
+  background-color: #E5E9ED;
+
+}
+
+
+
+::-webkit-scrollbar-thumb {
+
+  box-shadow: inset 0 0 6px #7D8FA1;
+
+  -webkit-box-shadow: inset 0 0 6px #7D8FA1;
+
+  background-color: #9AAAB7;
+
+}
+
+
+
+body.preloader-site {
+
+  overflow: hidden;
+
+}
+
+
+
+.preloader-wrapper {
+
+  height: 100%;
+
+  width: 100%;
+
+  background: #C8D2DA;
+
+  position: fixed;
+
+  top: 0;
+
+  left: 0;
+
+  z-index: 9999999;
+
+}
+
+
+
+.preloader-wrapper .preloader {
+
+  position: absolute;
+
+  top: 50%;
+
+  left: 50%;
+
+  -webkit-transform: translate(-50%, -50%);
+
+  transform: translate(-50%, -50%);
+
+  width: 120px;
+
+}
+
+
+
+
+
+.btn-whatsapp:hover,
+.btn-message:hover {
+
+  color: white;
+
+  background-color: #6F8392;
+
+  font-size: 1.2rem;
+
+  border-radius: 10px;
+
+  border: 2px solid #6F8392;
+
+  width:  210px;
+
+  height: 65px;
+
+  align-items: center;
+
+  margin: 1rem;
+
+}
+
+
+
+
+
+.btn-whatsapp,
+.btn-message {
+
+  background-color: #7D8FA1;
+
+  width:  210px;
+
+  height: 65px;
+
+  color: white;
+
+  font-size: 1.2rem;
+
+  border-radius: 10px;  
+
+  border-left: 1px solid #7D8FA1;
+
+  border-right: 1px solid #7D8FA1;
+
+  border-top: 1px solid #7D8FA1;
+
+  border-bottom: 1px solid #7D8FA1;
+
+  align-items: center;
+
+  margin: 1rem;
+
+
+
+}
+
+
+
+
+
+.btn-cta:hover {
+
+  color:white;
+
+  background-color: #90A1B3;
+
+  font-size: 1.2rem;
+
+  border-radius: 10px;
+
+  border: 2px solid #90A1B3;
+
+  width:  210px;
+
+  height: 65px;
+
+  align-items: center;
+
+  margin: 1rem;
+
+}
+
+
+
+.btn-cta {
+
+  background-color: #7D8FA1;
+
+  width:  210px;
+
+  height: 65px;
+
+  color: white;
+
+  font-size: 1.2rem;
+
+  border: 2px solid #7D8FA1;
+
+  border-radius: 10px;
+
+  align-items: center;
+
+  margin: 1rem;
+
+}
+
+
+
+.cashbac-logo-inline {
+
+  width: 160px;
+
+  vertical-align: middle;
+
+}
+
+
+
+.button-download {
+
+  min-width: 200px;
+
+  height: 55px;
+
+  align-items: center;
+
+  margin: 0.1rem;
+
+
+
+}
+
+
+
+.voucher-code {
+
+  height: 55px;
+
+  max-width: 180px;
+
+  border: 2px solid #26ade4;
+
+  border-radius: 10px 0 0 10px  ;
+
+  font-size: 24px;
+
+  padding: 15px;
+
+}
+
+
+
+.btn-voucher-code {
+
+  height: 55px;
+
+  min-width: 100px;
+
+  border: 2px solid #26ade4;
+
+  background-color: #26ade4;
+
+  border-radius: 0 10px 10px 0;
+
+  font-size: 20px;
+
+  padding: 0;
+
+  margin: 0;
+
+  vertical-align: middle;
+
+  color: white;
+
+}
+
+
+
+.fa-copy {
+
+  margin-right: 5px;
+
+}
+
+.white
+
+{color:ghostwhite}
+
+
+
+
+
+.dusty-blue {color: #AAB7C3}
+
+.dusty-blue-lighter {color: #D7DEE4}
+
+.dusty-blue-lightest {color: #E5E9ED}
+
+.dusty-blue-darker {color: #7D8FA1}
+
+.dusty-blue-darkest {color: #6A7C8C}
+
+
+
+.tile {
+
+  border-radius: 10px;
+
+}
+
+
+
+
+
+.foto1 {
+
+  background-image: linear-gradient(rgba(78, 94, 109, 0.58), rgba(48, 57, 66, 0.9)), url("../image/paath.png");
+
+  background-size: cover;
+
+  background-position: center;
+
+  background-repeat:no-repeat;
+
+  min-height: 24rem;
+
+}
+
+
+
+
+
+.foto2 {
+
+  background-image: linear-gradient(rgba(78, 94, 109, 0.58), rgba(48, 57, 66, 0.9)), url("../image/bandoli.png");
+
+  background-size: cover;
+
+  background-position: center;
+
+  background-repeat:no-repeat;
+
+  min-height: 24rem;
+
+}
+
+
+
+.foto3 {
+
+  background-image: linear-gradient(rgba(78, 94, 109, 0.58), rgba(48, 57, 66, 0.9)), url("../image/baraat.png");
+
+  background-size: cover;
+
+  background-position: top;
+
+  background-repeat:no-repeat;
+
+  min-height: 24rem;
+
+}
+
+
+
+.foto4 {
+
+  background-image: linear-gradient(rgba(78, 94, 109, 0.58), rgba(48, 57, 66, 0.9)), url("../image/saabha.png");
+
+  background-size: cover;
+
+  background-position: top;
+
+  background-repeat:no-repeat;
+
+  min-height: 24rem;
+
+}
+
+
+
+.foto5 {
+
+  background-image: linear-gradient(rgba(78, 94, 109, 0.58), rgba(48, 57, 66, 0.9)), url("../image/begening.png");
+
+  background-size: cover;
+
+  background-position: center;
+
+  background-repeat:no-repeat;
+
+  min-height: 24rem;
+
+}
+
+
+
+
+
+.foto6 {
+
+  background-image: linear-gradient(rgba(78, 94, 109, 0.58), rgba(48, 57, 66, 0.9)), url("../image/7Pheras.png");
+
+  background-size: cover;
+
+  background-position: center;
+
+  background-repeat:no-repeat;
+
+  min-height: 24rem;
+
+}
+
+
+
+
+
+
+
+.title-foto {
+
+  font-size: 18pt;
+
+  font-family: 'Lato', sans-serif;
+
+  font-weight: 700;
+
+  text-align: left;
+
+  color: white;
+
+}
+
+
+
+
+
+.subtitle-foto {
+
+  font-family: 'Lato', sans-serif;
+
+  font-weight: 700;
+
+  font-size: 14pt;
+
+  font-weight: 600;
+
+  margin-top: 15px;
+
+  text-align: left;
+
+  color: white;
+
+}
+
+
+
+.section-light {
+
+  background-image: url(../image/divider-flowers-leaves.png);
+
+  background-position: bottom -30px center;
+
+  background-repeat: no-repeat;
+
+  background-size: initial;
+
+}
+
+/* Minimal AssistiveTouch-style music player */
+.mini-music {
+  position: fixed;
+  right: 24px;
+  bottom: 24px;
+  z-index: 99999;
+  font-family: inherit;
+}
+
+.music-fab {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  border: 1px solid #d7b56d;
+  background: linear-gradient(145deg, #701c2c, #4b101c);
+  color: #fff6df;
+  font-size: 21px;
+  cursor: pointer;
+  box-shadow: 0 4px 16px #00000020;
+
+  opacity: 0.38;
+  transition:
+    opacity 0.35s ease,
+    transform 0.25s ease,
+    box-shadow 0.25s ease;
+}
+
+.music-fab:hover,
+.music-fab:focus-visible,
+.mini-music.menu-open .music-fab {
+  opacity: 1;
+  transform: scale(1.05);
+  box-shadow: 0 6px 22px #00000030;
+}
+
+.music-menu {
+  position: absolute;
+  right: 0;
+  bottom: 64px;
+  width: 235px;
+  box-sizing: border-box;
+  padding: 14px;
+
+  border: 1px solid #d7b56d;
+  border-radius: 16px;
+  background: #fff9ed;
+  color: #551523;
+  box-shadow: 0 8px 30px #00000020;
+
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(8px) scale(0.97);
+  transform-origin: bottom right;
+
+  transition:
+    opacity 0.2s ease,
+    transform 0.2s ease,
+    visibility 0.2s ease;
+}
+
+.mini-music.menu-open .music-menu {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0) scale(1);
+}
+
+.music-menu-title {
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  margin-bottom: 10px;
+}
+
+#musicTrack {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #e1cfaa;
+  border-radius: 10px;
+  background: #fffdf7;
+  color: #551523;
+  font: inherit;
+  font-size: 12px;
+  outline-color: #a67b36;
+}
+
+.music-controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 12px;
+}
+
+.music-controls button {
+  width: 34px;
+  height: 34px;
+  flex-shrink: 0;
+  border: 1px solid #e1cfaa;
+  border-radius: 50%;
+  background: #f7edda;
+  color: #651728;
+  cursor: pointer;
+}
+
+#musicStatus {
+  flex: 1;
+  font-size: 11px;
+  opacity: 0.8;
+}
+
+@media (max-width: 480px) {
+  .mini-music {
+    right: 14px;
+    bottom: 16px;
+  }
+
+  .music-fab {
+    width: 46px;
+    height: 46px;
+  }
+
+  .music-menu {
+    width: 220px;
+    bottom: 57px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .music-fab,
+  .music-menu {
+    transition: none;
+  }
+}
+
+.instagram {
+
+  color: #6A7C8C;
+
+  font-size: 1.25rem;
+
+  font-weight: 900;
+
+  margin-top: 0.5rem;
+
+  display: inline-block;
+
+  vertical-align: middle;
+
+  text-align: center;
+
+  padding: 10px;
+
+}
+
+/* Royal Wedding Gifts / UPI Section */
+#wedding-gifts {
+  padding: 75px 20px;
+  background: #fbf7ef;
+  color: #681c27;
+}
+
+#wedding-gifts .gift-eyebrow {
+  color: #b58a55;
+  letter-spacing: 4px;
+  font-size: 11px;
+  margin-bottom: 12px;
+}
+
+#wedding-gifts .gift-ornament {
+  color: #c99a52;
+  font-size: 35px;
+  margin: 10px 0;
+}
+
+#wedding-gifts .gift-heading {
+  color: #681c27;
+  font-family: "Beau Rivage", cursive;
+  font-size: 34px;
+  margin: 15px 0;
+}
+
+#wedding-gifts .gift-message {
+  max-width: 580px;
+  margin: 0 auto 28px;
+  line-height: 1.9;
+  color: #66564f;
+}
+
+#wedding-gifts .gift-card {
+  max-width: 430px;
+  margin: 0 auto;
+  padding: 30px 22px;
+  border: 1px solid #d6b77c;
+  background: rgba(255, 255, 255, 0.65);
+  box-shadow: 0 8px 25px rgba(80, 40, 25, 0.07);
+}
+
+#wedding-gifts .gift-label {
+  color: #b58a55;
+  letter-spacing: 3px;
+  font-size: 11px;
+}
+
+#wedding-gifts .gift-upi {
+  font-size: 22px;
+  letter-spacing: 0.5px;
+  margin: 12px 0 22px;
+  overflow-wrap: anywhere;
+}
+
+#wedding-gifts .gift-copy-btn,
+#wedding-gifts .gift-pay-btn,
+#wedding-gifts .gift-whatsapp-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
+  border-radius: 0;
+  min-height: 42px;
+  white-space: normal;
+}
+
+#wedding-gifts .gift-copy-btn {
+  background: transparent;
+  border: 1px solid #681c27;
+  color: #681c27;
+}
+
+#wedding-gifts .gift-pay-btn {
+  background: #681c27;
+  border: 1px solid #681c27;
+  color: #fffaf1;
+}
+
+#wedding-gifts .gift-copy-btn:hover,
+#wedding-gifts .gift-pay-btn:hover {
+  background: #b58a55;
+  border-color: #b58a55;
+  color: white;
+}
+
+#wedding-gifts .gift-qr {
+  margin: 22px auto;
+  text-align: center;
+}
+
+#wedding-gifts .gift-qr img {
+  display: block;
+  width: 210px;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  padding: 10px;
+  background: #fff;
+  border: 1px solid #d6b77c;
+  border-radius: 8px;
+}
+
+#wedding-gifts .gift-qr p {
+  margin-top: 12px;
+  color: #681c27;
+  font-size: 13px;
+}
+
+#wedding-gifts .gift-whatsapp-btn {
+  background: #25D366;
+  border: 1px solid #25D366;
+  color: #fff;
+}
+
+#wedding-gifts .gift-whatsapp-btn:hover {
+  background: #1DA851;
+  border-color: #1DA851;
+  color: #fff;
+}
+
+#wedding-gifts .gift-note {
+  margin-top: 28px;
+  line-height: 1.9;
+  font-style: italic;
+  color: #66564f;
+}
+
+@media (max-width: 480px) {
+  #wedding-gifts {
+    padding: 55px 16px;
+  }
+
+  #wedding-gifts .gift-heading {
+    font-size: 29px;
+  }
+
+  #wedding-gifts .gift-copy-btn,
+  #wedding-gifts .gift-pay-btn,
+  #wedding-gifts .gift-whatsapp-btn {
+    width: 100%;
+    margin: 6px 0;
+  }
+}
+
+/* ================================================
+   ROYAL WEDDING SCRATCH-TO-REVEAL — NEXT SECTION
+   Dusty blue + stone grey + soft ivory, responsive
+   ================================================ */
+#weddingReveal {
+  position: relative;
+  z-index: 2;
+  width: min(100% - 28px, 560px);
+  margin: 34px auto 18px;
+  color: #6A7C8C;
+  text-align: center;
+  font-family: 'Manrope', sans-serif;
+}
+#weddingReveal .reveal-eyebrow,
+#weddingReveal .reveal-instruction {
+  display: block;
+  width: fit-content;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  background: rgb(255 255 255 / 15%);
+  border-radius: 999px;
+  padding: 6px 14px;
+}
+#weddingReveal .reveal-eyebrow {
+  margin: 0 auto 4px;
+  color: #4a260bbc;;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: clamp(24px, 4vw, 30px);
+  font-weight: 600;
+  line-height: 1.25;
+  letter-spacing: 0.2px;
+  text-shadow: 0 1px 2px rgba(255, 248, 230, 0.9);
+}
+#weddingReveal .reveal-instruction {
+  margin: 0 auto 10px;
+  color: #542d16c5;
+  font-size: clamp(12px, 2.2vw, 14px);
+  letter-spacing: 0.7px;
+  font-weight: 500;
+  line-height: 1.45;
+  text-shadow: 0 1px 2px rgba(255, 248, 230, 0.9);
+}
+.heart-scratch-wrap {
+  position: relative;
+  width: min(74vw, 310px);
+  aspect-ratio: 1 / 0.92;
+  margin: 0 auto 10px;
+  isolation: isolate;
+  filter: drop-shadow(0 12px 18px rgba(76, 90, 98, .14));
+  animation: heartBeat 3.6s ease-in-out infinite;
+}
+@keyframes heartBeat {
+  0%, 100% { transform: scale(1); }
+  17% { transform: scale(1.022); }
+  28% { transform: scale(1); }
+  42% { transform: scale(1.045); }
+  58% { transform: scale(1); }
+  70% { transform: scale(1.02); }
+  82% { transform: scale(1); }
+}
+.heart-clip-defs { position: absolute; width: 0; height: 0; overflow: hidden; }
+.heart-date-underlay,
+.heart-scratch-overlay {
+  position: absolute;
+  inset: 0;
+  clip-path: url(#heartClip);
+}
+.heart-date-underlay {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+  padding: 10% 12% 4%;
+  background: radial-gradient(circle at 50% 36%, #F9FBFC 0, #E3E9EC 48%, #C7D1D6 100%);
+  border: 1px solid #8AA0AC;
+  color: #6A7C8C;
+}
+.heart-small-label {
+  color: #6E8290;
+  font-size: clamp(8px, 2vw, 10px);
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+.heart-date-day {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: clamp(21px, 5.2vw, 30px);
+  line-height: 1.08;
+  font-weight: 600;
+  color: #526770;
+}
+.heart-date-year {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: clamp(27px, 6vw, 36px);
+  line-height: 1;
+  color: #6B7E89;
+}
+.heart-date-caption {
+  margin-top: 4px;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: clamp(12px, 3vw, 16px);
+  font-style: italic;
+  color: #73818A;
+}
+.heart-scratch-overlay {
+  z-index: 2;
+  cursor: crosshair;
+  touch-action: none;
+  overflow: hidden;
+  background: linear-gradient(135deg, #E8EDF0, #A8B7C1 20%, #D9E1E5 44%, #7E8F9D 72%, #C9D3D9);
+  transition: opacity .8s ease, visibility .8s ease;
+}
+.heart-scratch-overlay canvas {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  touch-action: none;
+}
+.heart-scratch-prompt {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  padding: 12%;
+  color: #F1F6F8;
+  font-size: clamp(9px, 2.5vw, 12px);
+  letter-spacing: 1.5px;
+  font-weight: 600;
+  text-shadow: 0 1px 6px rgba(57, 69, 78, .28);
+  pointer-events: none;
+}
+.heart-scratch-prompt small { font-size: clamp(8px, 2.1vw, 10px); letter-spacing: .5px; font-weight: 400; }
+.scratch-heart-icon { font-size: clamp(35px, 9vw, 52px); line-height: 1; color: #F8FBFC; text-shadow: 0 2px 8px rgba(55, 66, 75, .18); }
+.heart-scratch-overlay.is-revealed { opacity: 0; visibility: hidden; pointer-events: none; }
+.revealed-countdown {
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transform: translateY(18px);
+  transition: max-height .8s ease, opacity .7s ease, transform .7s ease;
+}
+.revealed-countdown.is-visible {
+  max-height: 180px;
+  opacity: 1;
+  transform: translateY(0);
+  overflow: visible;
+  animation: countdownHeartReveal .85s ease both;
+}
+@keyframes countdownHeartReveal {
+  0% { opacity: 0; transform: translateY(22px) scale(.97); }
+  70% { opacity: 1; transform: translateY(-3px) scale(1.01); }
+  100% { opacity: 1; transform: translateY(0) scale(1); }
+}
+.countdown-heading {
+  margin: 12px 0 10px;
+  color: #6E8290;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: clamp(17px, 3.5vw, 22px);
+  font-style: italic;
+}
+#weddingCountdown.wedding-countdown {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+  gap: clamp(3px, 1.2vw, 9px);
+  width: 100%;
+  max-width: 480px;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+}
+#weddingCountdown li:not(.countdown-colon) {
+  flex: 1 1 0;
+  min-width: 0;
+  padding: clamp(8px, 2.5vw, 14px) 3px;
+  border: 1px solid rgba(110, 130, 144, .42);
+  border-radius: 12px;
+  background: linear-gradient(145deg, rgba(255,255,255,.8), rgba(223, 230, 235,.72));
+  box-shadow: 0 5px 16px rgba(93, 108, 118, .08);
+}
+#weddingCountdown li span {
+  display: block;
+  color: #586C75;
+  font-size: clamp(18px, 4.5vw, 28px);
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+  line-height: 1.2;
+}
+#weddingCountdown li small {
+  display: block;
+  margin-top: 4px;
+  color: #6F808D;
+  font-size: clamp(7px, 1.8vw, 10px);
+  letter-spacing: .7px;
+  text-transform: uppercase;
+}
+#weddingCountdown li.countdown-colon {
+  flex: 0 0 auto;
+  color: #6E8290;
+  font-size: clamp(13px, 3vw, 20px);
+}
+@media (max-width: 380px) {
+  #weddingReveal { width: calc(100% - 20px); }
+  .heart-scratch-wrap { width: min(78vw, 270px); }
+  #weddingCountdown li:not(.countdown-colon) { border-radius: 8px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .heart-scratch-overlay, .revealed-countdown, .revealed-countdown.is-visible { transition: none; animation: none; }
+}
+
+/* =========================================================
+   Wedding invitation hero styles
+   Moved from inline HTML for better maintainability
+   ========================================================= */
+:root {
+  --burgundy: #681c27;
+  --gold: #ae762c;
+  --gold-light: #d5a45c;
+  --brown: #795437;
+  --cream: #fff4df;
+  --dusty-blue: #7b8f9c;
+  --stone-grey: #6f777d;
+  --mist: rgba(255, 246, 226, 0.72);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  min-height: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  font-family: "Playfair Display", serif;
+  background: #e7cda6;
+}
+
+.wedding-hero {
+  position: relative;
+  isolation: isolate;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  min-height: 100svh;
+  width: 100%;
+  padding: 36px 18px;
+  overflow: hidden;
+  background-image:
+    linear-gradient(90deg,
+      rgba(255, 233, 199, 0.05),
+      rgba(255, 246, 226, 0.06),
+      rgba(255, 233, 199, 0.05)),
+    url("../image/wedding-background.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.wedding-hero::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  inset: 0;
+  background: radial-gradient(ellipse at center,
+      rgba(255, 246, 226, 0.78) 0%,
+      rgba(255, 241, 215, 0.48) 29%,
+      rgba(255, 235, 200, 0.13) 51%,
+      transparent 72%);
+  pointer-events: none;
+}
+
+.invitation-card {
+  width: min(100%, 760px);
+  padding: 10px 20px 20px;
+  text-align: center;
+  color: var(--brown);
+  animation: invitationAppear 1.1s ease-out both;
+}
+
+.ceremony-mark {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 12px;
+  color: var(--gold);
+  font-size: 48px;
+  line-height: 1;
+}
+
+.ceremony-mark img {
+  display: block;
+  width: 75px;
+  height: 75px;
+  object-fit: contain;
+  background: transparent;
+}
+
+.ceremony-mark svg {
+  width: 68px;
+  height: 68px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.4;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.invocation-text {
+  font-family: "Noto Serif Devanagari", serif;
+  color: #8c5a23;
+  font-size: clamp(17px, 2vw, 23px);
+  margin-bottom: 18px;
+  letter-spacing: 0.3px;
+}
+
+.ornament {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  width: min(100%, 320px);
+  margin: 0 auto 16px;
+  color: var(--gold);
+}
+
+.ornament::before,
+.ornament::after {
+  content: "";
+  height: 1px;
+  flex: 1;
+  background: linear-gradient(to right, transparent, var(--gold-light), var(--gold));
+}
+
+.ornament::after {
+  transform: rotate(180deg);
+}
+
+.ornament span {
+  font-size: 22px;
+}
+
+.invitation-heading {
+  color: #74502c;
+  font-family: "Cormorant Garamond", serif;
+  font-size: clamp(15px, 2vw, 21px);
+  font-weight: 500;
+  letter-spacing: 0.27em;
+  margin-bottom: 22px;
+}
+
+.person-name,
+.ampersand {
+  font-family: "Beau Rivage", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Royal animated wedding names */
+.person-name {
+  font-family: "Beau Rivage", cursive;
+  font-weight: 400;
+  color: #6b1d2d;
+  text-align: center;
+  display: inline-block;
+  position: relative;
+  cursor: default;
+  font-size: clamp(76px, 8vw, 118px);
+  line-height: 1.1;
+  letter-spacing: 0;
+  text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+  transition:
+    color 0.5s ease,
+    transform 0.55s cubic-bezier(0.2, 0.8, 0.2, 1),
+    text-shadow 0.55s ease,
+    filter 0.55s ease;
+  animation: nameReveal 1.2s ease-out both;
+}
+
+.person-name:hover {
+  color: #7e2433;
+  transform: translateY(-6px) scale(1.03);
+  text-shadow:
+    0 1px 0 rgba(255,255,255,0.35),
+    0 8px 22px rgba(140, 104, 58, 0.22),
+    0 0 18px rgba(201, 154, 82, 0.12);
+  filter: saturate(1.08);
+}
+
+.person-name::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -8px;
+  width: 0;
+  height: 1.8px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    #bf8d3d,
+    #f0d7a4,
+    #bf8d3d,
+    transparent
+  );
+  border-radius: 999px;
+  transform: translateX(-50%);
+  transition: width 0.55s ease, box-shadow 0.55s ease;
+  box-shadow: 0 0 10px rgba(201, 154, 82, 0.2);
+}
+
+.person-name:hover::after {
+  width: 82%;
+  box-shadow: 0 0 12px rgba(201, 154, 82, 0.3);
+}
+
+.second-name {
+  margin-top: 0;
+  margin-bottom: 20px;
+  animation-delay: 0.35s;
+}
+
+.joining-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  margin: 12px auto 8px;
+  color: var(--gold-light);
+}
+
+.ampersand {
+  display: inline-block;
+  color: #c99a52;
+  font-size: clamp(72px, 8vw, 100px);
+  line-height: 1;
+  text-shadow: 0 2px 8px rgba(116, 95, 55, 0.14);
+  transition:
+    transform 0.55s ease,
+    text-shadow 0.55s ease,
+    color 0.55s ease;
+  animation: ampersandReveal 1.5s ease-out both;
+}
+
+.ampersand:hover {
+  color: #d8b06a;
+  transform: rotate(-8deg) scale(1.16);
+  text-shadow: 0 0 18px rgba(201, 154, 82, 0.42), 0 5px 18px rgba(116, 95, 55, 0.18);
+}
+
+.person-name:focus-visible,
+.ampersand:focus-visible {
+  outline: 1px solid #c99a52;
+  outline-offset: 8px;
+}
+
+.flourish {
+  width: clamp(55px, 16vw, 150px);
+  height: 30px;
+  color: var(--gold);
+}
+
+.flourish svg {
+  width: 100%;
+  height: 100%;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.35;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.name-divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  width: min(100%, 290px);
+  margin: 0 auto 17px;
+  color: var(--gold);
+}
+
+.name-divider::before,
+.name-divider::after {
+  content: "";
+  height: 1px;
+  flex: 1;
+  background: var(--gold-light);
+}
+
+.name-divider span {
+  font-size: 21px;
+}
+
+.tagline {
+  font-family: "Cormorant Garamond", serif;
+  font-size: clamp(21px, 2.6vw, 28px);
+  font-style: italic;
+  letter-spacing: 0.4px;
+  color: #2e3942;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.24);
+  margin-bottom: 13px;
+}
+
+.invitation-message {
+  font-family: "Cormorant Garamond", serif;
+  font-size: clamp(18px, 2.15vw, 23px);
+  line-height: 1.48;
+  font-weight: 600;
+  color: #2f3d46;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.18);
+}
+
+.invitation-message p {
+  margin: 0;
+}
+
+.bottom-ornament {
+  color: var(--gold);
+  font-size: 25px;
+  line-height: 1;
+  margin-top: 20px;
+}
+
+@keyframes invitationAppear {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes nameReveal {
+  from {
+    opacity: 0;
+    transform: translateY(22px);
+    filter: blur(5px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+    filter: blur(0);
+  }
+}
+
+@keyframes ampersandReveal {
+  from {
+    opacity: 0;
+    transform: scale(0.7);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@media (min-width: 1200px) {
+  .invitation-card {
+    width: min(100%, 850px);
+  }
+
+  .person-name {
+    font-size: clamp(78px, 5.4vw, 96px);
+  }
+}
+
+@media (max-width: 600px) {
+  .wedding-hero {
+    padding: 28px 12px;
+    background-position: center center;
+  }
+
+  .wedding-hero::before {
+    background: radial-gradient(ellipse at center,
+        rgba(255, 246, 226, 0.88) 0%,
+        rgba(255, 241, 215, 0.64) 36%,
+        rgba(255, 235, 200, 0.18) 67%,
+        transparent 100%);
+  }
+
+  .person-name {
+    font-size: clamp(58px, 13vw, 82px);
+    line-height: 1.12;
+  }
+
+  .ampersand {
+    font-size: 66px;
+  }
+
+  .invitation-card {
+    padding: 8px 5px 15px;
+  }
+
+  .ceremony-mark svg {
+    width: 54px;
+    height: 54px;
+  }
+
+  .invocation-text {
+    margin-bottom: 15px;
+  }
+
+  .invitation-heading {
+    letter-spacing: 0.19em;
+    margin-bottom: 23px;
+  }
+
+  .person-name {
+    font-size: clamp(43px, 10.5vw, 64px);
+    letter-spacing: -0.5px;
+    line-height: 1.06;
+  }
+
+  .joining-row {
+    gap: 10px;
+    margin: 10px auto;
+  }
+
+  .ampersand {
+    font-size: 59px;
+  }
+
+  .second-name {
+    margin-bottom: 18px;
+  }
+
+  .tagline {
+    font-size: 23px;
+    margin-bottom: 12px;
+  }
+
+  .invitation-message {
+    font-size: 19px;
+    line-height: 1.5;
+  }
+
+  .bottom-ornament {
+    margin-top: 17px;
+  }
+}
+
+@media (max-width: 360px) {
+  .person-name {
+    font-size: 40px;
+  }
+
+  .invitation-message {
+    font-size: 17px;
+  }
+
+  .invocation-text {
+    font-size: 16px;
+  }
+
+  .invitation-heading {
+    font-size: 14px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .invitation-card {
+    animation: none;
+  }
+
+  .person-name,
+  .ampersand {
+    animation: none;
+    transition: none;
+  }
+
+  .person-name:hover,
+  .ampersand:hover {
+    transform: none;
+  }
+}
+
+/* Video background for the second invitation page only */
+#regular-section {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  background: transparent !important;
+}
+
+#regular-section > .section-bg-video {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+  z-index: -2;
+  pointer-events: none;
+}
+
+#regular-section > .section-bg-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(251, 247, 239, 0.24);
+  z-index: -1;
+  pointer-events: none;
+}
+
+#regular-section > :not(.section-bg-video):not(.section-bg-overlay) {
+  position: relative;
+  z-index: 1;
+}
+
+@media (max-width: 768px) {
+  #regular-section > .section-bg-video {
+    object-position: center center;
+  }
+}
+
+/* Elegant Sanskrit text — minimal highlighting */
+.wedding-blessing {
+  position: relative;
+  z-index: 2;
+  width: 92%;
+  max-width: 850px;
+  margin: 35px auto;
+  padding: 20px 15px;
+  text-align: center;
+  background: transparent;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+  color: #542D16;
+}
+
+.wedding-blessing .blessing-heading {
+  color: #713D19;
+  font-family: serif;
+  font-size: 29px;
+  font-weight: 600;
+  line-height: 1.6;
+  margin-bottom: 24px;
+  text-shadow: 0 1px 5px rgba(255, 248, 230, 0.65);
+}
+
+.wedding-blessing .sanskrit-shloka {
+  color: #542D16;
+  font-family: serif;
+  font-size: 23px;
+  font-weight: 500;
+  line-height: 2.15;
+  text-shadow: 0 1px 4px rgba(255, 248, 230, 0.65);
+}
+
+.wedding-blessing .blessing-ending {
+  color: #80551F;
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin-top: 24px;
+  text-shadow: 0 1px 4px rgba(255, 248, 230, 0.65);
+}
+
+@media (max-width: 600px) {
+  .wedding-blessing {
+    width: 96%;
+    padding: 15px 8px;
+    margin: 20px auto;
+  }
+
+  .wedding-blessing .blessing-heading {
+    font-size: 23px;
+  }
+
+  .wedding-blessing .sanskrit-shloka {
+    font-size: 17px;
+    line-height: 2;
+  }
+
+  .wedding-blessing .blessing-ending {
+    font-size: 18px;
+  }
+}
+
+
+
+
+/* =====================================
+   ROYAL RAJASTHANI CONTRAST THEME
+   Append to the bottom of menikah.css
+   ===================================== */
+
+:root {
+  --royal-burgundy: #4A1524;
+  --deep-burgundy: #32101B;
+  --warm-ivory: #FAF3E7;
+  --antique-gold: #D9B56D;
+  --forest-green: #3D111B;
+  --text-dark: #38252A;
+}
+
+/* SCHEDULE — rich burgundy */
+#schedule {
+  background: var(--royal-burgundy) !important;
+  color: var(--warm-ivory) !important;
+}
+
+#schedule .section-title,
+#schedule .event-detail,
+#schedule .event-detail strong {
+  color: var(--warm-ivory) !important;
+}
+
+#schedule .event-date {
+  color: var(--antique-gold) !important;
+}
+
+#schedule .btn-cta {
+  background: var(--antique-gold) !important;
+  color: var(--deep-burgundy) !important;
+  border: 1px solid var(--antique-gold) !important;
+}
+
+/* VENUE — warm ivory */
+#location {
+  background: var(--warm-ivory) !important;
+  color: var(--text-dark) !important;
+}
+
+#location .section-title,
+#location .venue-detail,
+#location .venue-detail strong {
+  color: var(--royal-burgundy) !important;
+}
+
+#location .section-map iframe {
+  border: 3px solid var(--antique-gold) !important;
+  border-radius: 14px;
+}
+
+#location .btn-cta {
+  background: var(--royal-burgundy) !important;
+  color: var(--warm-ivory) !important;
+  border: 1px solid var(--royal-burgundy) !important;
+}
+
+/* ABOUT THE COUPLE — forest green */
+#about-couple {
+  background: var(--forest-green) !important;
+  color: var(--warm-ivory) !important;
+}
+
+#about-couple .section-title,
+#about-couple .title-foto,
+#about-couple .subtitle-foto {
+  color: var(--warm-ivory) !important;
+}
+
+#about-couple .foto1,
+#about-couple .foto2,
+#about-couple .foto3,
+#about-couple .foto4,
+#about-couple .foto5,
+#about-couple .foto6 {
+  border: 1px solid var(--antique-gold);
+  border-radius: 12px;
+  overflow: hidden;
+ transition: transform 0.9s ease, box-shadow 0.28s ease, border-color 0.28s ease;
+  box-shadow: 0 8px 22px rgba(19, 29, 34, 0.14);
+}
+
+#about-couple .foto1:hover,
+#about-couple .foto2:hover,
+#about-couple .foto3:hover,
+#about-couple .foto4:hover,
+#about-couple .foto5:hover,
+#about-couple .foto6:hover {
+  transform: translateY(-8px) scale(1.01);
+  border-color: #f0d7a3;
+  box-shadow: 0 16px 34px rgba(18, 31, 36, 0.22);}
+
+/* WEDDING GIFTS — ivory with burgundy and gold */
+#wedding-gifts {
+  background: var(--warm-ivory) !important;
+  color: var(--text-dark) !important;
+}
+
+#wedding-gifts .section-title,
+#wedding-gifts .gift-heading,
+#wedding-gifts .gift-message,
+#wedding-gifts .gift-note {
+  color: var(--royal-burgundy) !important;
+}
+
+#wedding-gifts .gift-card {
+  background: #FFFDF8 !important;
+  border: 1px solid var(--antique-gold) !important;
+  box-shadow: 0 12px 35px rgba(74, 21, 36, 0.12);
+  border-radius: 18px;
+}
+
+#wedding-gifts .gift-copy-btn,
+#wedding-gifts .gift-pay-btn {
+  background: var(--royal-burgundy) !important;
+  color: var(--warm-ivory) !important;
+  border: 1px solid var(--royal-burgundy) !important;
+}
+
+#wedding-gifts .gift-copy-btn:hover,
+#wedding-gifts .gift-pay-btn:hover {
+  background: var(--deep-burgundy) !important;
+}
+
+/* RSVP — dramatic burgundy finale */
+#rsvp {
+  background: var(--deep-burgundy) !important;
+  color: var(--warm-ivory) !important;
+}
+
+#rsvp .section-title,
+#rsvp .subtitle,
+#rsvp .wedding-eyebrow {
+  color: var(--warm-ivory) !important;
+}
+
+#rsvp .wedding-eyebrow::before,
+#rsvp .wedding-eyebrow::after {
+  background: var(--antique-gold) !important;
+}
+
+#rsvp .instagram {
+  color: var(--antique-gold) !important;
+}
+
+#rsvp strong,
+#rsvp em {
+  color: #e2c78a !important;
+}
+
+/* Matching gold details */
+#schedule .section-title,
+#location .section-title,
+#about-couple .section-title,
+#wedding-gifts .section-title,
+#rsvp .section-title {
+  text-shadow: none;
+}
+
+#schedule .btn-cta,
+#location .btn-cta,
+#wedding-gifts .gift-copy-btn,
+#wedding-gifts .gift-pay-btn {
+  border-radius: 999px;
+  transition: transform 0.25s ease,
+              box-shadow 0.25s ease;
+}
+
+#schedule .btn-cta:hover,
+#location .btn-cta:hover,
+#wedding-gifts .gift-copy-btn:hover,
+#wedding-gifts .gift-pay-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+}
+
+/* Mobile spacing */
+@media (max-width: 480px) {
+  #location .section-map iframe {
+    height: 320px;
+  }
+
+  #schedule,
+  #location,
+  #about-couple,
+  #wedding-gifts,
+  #rsvp {
+    background-attachment: scroll;
+  }
+}
+
+/* ==========================================
+   DESKTOP NAVBAR — EXACT FIX
+   Royal Rajasthani Wedding Theme
+   ========================================== */
+
+/* Desktop navigation background */
+.header-wrapper .hero .hero-foot {
+  background: #4A1524 !important;
+  background-color: #4A1524 !important;
+  border-top: 1px solid #D9B56D;
+  border-bottom: 2px solid #D9B56D;
+  box-shadow: 0 4px 14px rgba(50, 16, 27, 0.20);
+}
+
+/* Remove extra spacing issues inside the menu */
+.header-wrapper .hero .hero-foot .hero-foot--wrapper {
+  background: transparent !important;
+}
+
+/* Desktop navigation links */
+.header-wrapper .hero .hero-foot
+.hero-menu-desktop ul li a {
+  color: #FAF3E7 !important;
+  border-bottom: 2px solid transparent !important;
+  transition: color 0.25s ease,
+              border-color 0.25s ease;
+}
+
+/* Active navigation link */
+.header-wrapper .hero .hero-foot
+.hero-menu-desktop ul li.is-active a {
+  color: #D9B56D !important;
+  border-bottom: 2px solid #D9B56D !important;
+}
+
+/* Hover effect */
+.header-wrapper .hero .hero-foot
+.hero-menu-desktop ul li a:hover {
+  color: #D9B56D !important;
+  border-bottom: 2px solid #D9B56D !important;
+}
+
+/* Keep the desktop menu transparent internally */
+.header-wrapper .hero .hero-foot .columns,
+.header-wrapper .hero .hero-foot .column {
+  background: transparent !important;
+}
+
+/* Match the mobile navigation */
+@media screen and (max-width: 1023px) {
+  .header-wrapper .hero .hero-foot {
+    display: none;
+  }
+}
+
+/* =========================================
+   FIX: DESKTOP + MOBILE NAVBAR
+   Royal Rajasthani Wedding Theme
+   ========================================= */
+
+:root {
+  --nav-burgundy: #4A1524;
+  --nav-burgundy-dark: #32101B;
+  --nav-ivory: #FAF3E7;
+  --nav-gold: #D9B56D;
+}
+
+/* Desktop navbar: target common navbar structures */
+nav,
+.navbar,
+.navbar-menu,
+.navbar-start,
+.navbar-end,
+.navbar .navbar-menu,
+.navbar .navbar-item,
+.navbar a,
+.navbar-item,
+.navbar-link {
+  box-sizing: border-box;
+}
+
+/* Main desktop navigation background */
+nav.navbar,
+.navbar,
+.navbar-menu,
+.navbar-menu.is-active {
+  background: var(--nav-burgundy) !important;
+  background-color: var(--nav-burgundy) !important;
+}
+
+/* Desktop links */
+.navbar a,
+.navbar .navbar-item,
+.navbar .navbar-link,
+.navbar-menu a,
+.navbar-menu .navbar-item,
+nav a {
+  color: var(--nav-ivory) !important;
+}
+
+/* Hover and current page */
+.navbar a:hover,
+.navbar .navbar-item:hover,
+.navbar .navbar-link:hover,
+.navbar a.is-active,
+.navbar .navbar-item.is-active,
+.navbar a:focus {
+  color: var(--nav-gold) !important;
+  background-color: var(--nav-burgundy-dark) !important;
+}
+
+/* Gold border and subtle shadow */
+.navbar,
+nav.navbar {
+  border-bottom: 2px solid var(--nav-gold) !important;
+  box-shadow: 0 4px 14px rgba(50, 16, 27, 0.18);
+}
+
+/* Hamburger menu */
+.navbar-burger {
+  color: var(--nav-ivory) !important;
+}
+
+.navbar-burger span {
+  background-color: var(--nav-ivory) !important;
+}
+
+/* Mobile dropdown */
+@media screen and (max-width: 1023px) {
+  .navbar-menu,
+  .navbar-menu.is-active {
+    background-color: var(--nav-burgundy) !important;
+  }
+
+  .navbar-menu a,
+  .navbar-menu .navbar-item {
+    color: var(--nav-ivory) !important;
+    border-bottom: 1px solid rgba(217, 181, 109, 0.2);
+  }
+}
+
+/* Remove unwanted gap beneath the desktop navbar */
+.header-wrapper {
+  padding-bottom: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+.header-wrapper > .hero {
+  margin-bottom: 0 !important;
+}
+
+/* Keep the navbar flush with the next section */
+.header-wrapper .hero .hero-foot {
+  margin-bottom: 0 !important;
+}
+
+/* Remove extra top spacing from the blessing section */
+#regular-section {
+  margin-top: 0 !important;
+}
+
+/* FINAL FIX: remove space below desktop navigation */
+
+.header-wrapper {
+  padding-bottom: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+.header-wrapper > .hero {
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.header-wrapper .hero .hero-foot {
+  display: block;
+  height: 50px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.header-wrapper .hero .hero-foot .hero-foot--wrapper {
+  height: 48px !important;
+  margin: 0 auto !important;
+  padding: 0 !important;
+}
+
+/* Remove the 32px gap before the blessing section */
+.main-content {
+  padding-top: 0px !important;
+  margin-top: 0px !important;
+}
+
+#regular-section {
+  margin-top: 5px !important;
+  padding-top: 5px !important;
+}
+
+@media screen and (max-width: 599px) {
+  .header-wrapper .hero .hero-foot {
+    display: none !important;
+  }
+}
+
+
