@@ -57,7 +57,7 @@ html {
 
 .hero {
 
-  background: linear-gradient(rgba(94, 87, 74, 0.52), rgba(94, 87, 74, 0.52)), url('../image/11.png') center center / cover no-repeat;
+  background: linear-gradient(rgba(94, 87, 74, 0.52), rgba(94, 87, 74, 0.52)), url('../image/11.webp') center center / cover no-repeat;
 
   background-attachment: fixed;
 
@@ -2079,7 +2079,7 @@ body.preloader-site {
 
 .foto1 {
 
-  background-image: linear-gradient(rgba(78, 94, 109, 0.58), rgba(48, 57, 66, 0.9)), url("../image/paath.png");
+  background-image: linear-gradient(rgba(78, 94, 109, 0.58), rgba(48, 57, 66, 0.9)), url("../image/paath.webp");
 
   background-size: cover;
 
@@ -2097,7 +2097,7 @@ body.preloader-site {
 
 .foto2 {
 
-  background-image: linear-gradient(rgba(78, 94, 109, 0.58), rgba(48, 57, 66, 0.9)), url("../image/Bandoli.png");
+  background-image: linear-gradient(rgba(78, 94, 109, 0.58), rgba(48, 57, 66, 0.9)), url("../image/Bandoli.webp");
 
   background-size: cover;
 
@@ -2113,7 +2113,7 @@ body.preloader-site {
 
 .foto3 {
 
-  background-image: linear-gradient(rgba(78, 94, 109, 0.58), rgba(48, 57, 66, 0.9)), url("../image/baraat.png");
+  background-image: linear-gradient(rgba(78, 94, 109, 0.58), rgba(48, 57, 66, 0.9)), url("../image/baraat.webp");
 
   background-size: cover;
 
@@ -2129,7 +2129,7 @@ body.preloader-site {
 
 .foto4 {
 
-  background-image: linear-gradient(rgba(78, 94, 109, 0.58), rgba(48, 57, 66, 0.9)), url("../image/saabha.png");
+  background-image: linear-gradient(rgba(78, 94, 109, 0.58), rgba(48, 57, 66, 0.9)), url("../image/saabha.webp");
 
   background-size: cover;
 
@@ -2145,7 +2145,7 @@ body.preloader-site {
 
 .foto5 {
 
-  background-image: linear-gradient(rgba(78, 94, 109, 0.58), rgba(48, 57, 66, 0.9)), url("../image/begening.png");
+  background-image: linear-gradient(rgba(78, 94, 109, 0.58), rgba(48, 57, 66, 0.9)), url("../image/begening.webp");
 
   background-size: cover;
 
@@ -2163,7 +2163,7 @@ body.preloader-site {
 
 .foto6 {
 
-  background-image: linear-gradient(rgba(78, 94, 109, 0.58), rgba(48, 57, 66, 0.9)), url("../image/7Pheras.png");
+  background-image: linear-gradient(rgba(78, 94, 109, 0.58), rgba(48, 57, 66, 0.9)), url("../image/7Pheras.webp");
 
   background-size: cover;
 
@@ -2795,7 +2795,7 @@ body {
       rgba(255, 233, 199, 0.05),
       rgba(255, 246, 226, 0.06),
       rgba(255, 233, 199, 0.05)),
-    url("../image/wedding-background.png");
+    url("../image/11.webp");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -3723,5 +3723,4 @@ nav.navbar {
     display: none !important;
   }
 }
-
 
